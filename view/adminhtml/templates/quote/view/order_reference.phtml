@@ -1,0 +1,21 @@
+<?php
+
+declare(strict_types=1);
+
+use AimaneCouissi\NegotiableQuoteOrderReference\Block\Adminhtml\Quote\View\OrderReference;
+use Magento\Framework\Escaper;
+
+/** @var OrderReference $block */
+/** @var Escaper $escaper */
+
+$currentOrder = $block->getRelatedOrder();
+?>
+<?php if ($currentOrder): ?>
+    <tr>
+        <th><?= $escaper->escapeHtml(__('Order ID')) ?></th>
+        <td>
+            <a href="<?= $escaper->escapeUrl($block->getUrl('sales/order/view', ['order_id' => $currentOrder->getEntityId()])) ?>"
+               target="_blank">#<?= $escaper->escapeHtml($currentOrder->getIncrementId()) ?></a>
+        </td>
+    </tr>
+<?php endif; ?>

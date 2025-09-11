@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="negotiable.quote.info.additional.container">
+            <block class="AimaneCouissi\NegotiableQuoteOrderReference\Block\Adminhtml\Quote\View\OrderReference"
+                   name="quote.order.reference"
+                   template="AimaneCouissi_NegotiableQuoteOrderReference::quote/view/order_reference.phtml"/>
+        </referenceBlock>
+    </body>
+</page>

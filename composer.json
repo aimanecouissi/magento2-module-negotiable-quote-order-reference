@@ -1,0 +1,22 @@
+{
+    "name": "aimanecouissi/module-negotiable-quote-order-reference",
+    "version": "1.0.0",
+    "description": "Add order reference link to negotiable quotes",
+    "type": "magento2-module",
+    "require": {
+        "php": "~8.3.0||~8.4.0",
+        "magento/framework": "103.0.*",
+        "magento/extension-b2b": "^1.5"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\NegotiableQuoteOrderReference\\": ""
+        }
+    }
+}
