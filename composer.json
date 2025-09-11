@@ -1,7 +1,7 @@
 {
     "name": "aimanecouissi/module-negotiable-quote-order-reference",
     "version": "1.0.0",
-    "description": "Add order reference link to negotiable quotes",
+    "description": "Add order reference link to negotiable quotes view page.",
     "type": "magento2-module",
     "require": {
         "php": "~8.3.0||~8.4.0",
