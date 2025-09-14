@@ -1,5 +1,7 @@
 # AimaneCouissi_NegotiableQuoteOrderReference
 
+[![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-negotiable-quote-order-reference/v)](https://packagist.org/packages/aimanecouissi/module-negotiable-quote-order-reference) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-negotiable-quote-order-reference/downloads)](https://packagist.org/packages/aimanecouissi/module-negotiable-quote-order-reference) [![Latest Unstable Version](http://poser.pugx.org/aimanecouissi/module-negotiable-quote-order-reference/v/unstable)](https://packagist.org/packages/aimanecouissi/module-negotiable-quote-order-reference) [![License](http://poser.pugx.org/aimanecouissi/module-negotiable-quote-order-reference/license)](https://packagist.org/packages/aimanecouissi/module-negotiable-quote-order-reference) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-negotiable-quote-order-reference/require/php)](https://packagist.org/packages/aimanecouissi/module-negotiable-quote-order-reference)
+
 Adds an **Order reference** link to the Negotiable Quote view page, allowing quick navigation to the order created from the quote.
 
 ## Installation
